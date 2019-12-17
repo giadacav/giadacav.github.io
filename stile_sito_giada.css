@@ -1,0 +1,91 @@
+@import "nav_bar.css";
+
+/* *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+} */
+/* html{
+	overflow-x: hidden;
+} */
+
+/* body{
+	background-color: #fbfbfb;
+	overflow-x: hidden;
+}
+
+header{
+	display: inline-block;
+} */
+.split{
+	height: 92vh;
+	width: 50%;
+	position: fixed;
+	top: 8vh;
+	padding-top: 20px;
+	z-index: -10;
+	padding-right: 10%;
+}
+
+.left{
+	left: 0;
+	background-color: #fbfbfb;
+}
+
+.right{
+	right: 0;
+	background-color: #fbfbfb;
+}
+.descrizione{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+
+img {
+	border-radius: 80%;
+	width: 70vh;
+  }
+
+
+h1{
+	color: #5d4954;
+	font-size: 50px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+
+@media screen and (max-width:1024px){
+
+	.split{
+		height: 46vh;
+		width: 100%;
+		position: fixed;
+		top: 8vh;
+		padding-top: 20px;
+		padding-left: 10%
+	}
+	.left{
+		top: 8vh;
+	}
+	
+	.right{
+		top: 54vh;
+	}
+
+	img {
+		width: 48vh;
+	}
+}
+
