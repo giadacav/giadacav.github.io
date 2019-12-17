@@ -1,0 +1,42 @@
+@import "nav_bar.css";
+
+ul{
+    list-style-type: none;
+}
+.contact{
+    padding-right: 30px;
+    float: left;
+}
+
+.contatti{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+
+.contatti2{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+}
+
+.title{
+    color: #5d4954;
+	font-weight: bold;
+}
+
+@media screen and (max-width:1024px){
+	.contatti2{
+        display: none;
+    }
+    .contatti{
+        top: 50%;
+    }
+    .contact{
+        padding-bottom: 30px;
+        float: none;
+    }
+	
+}
