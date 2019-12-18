@@ -26,8 +26,14 @@ ul{
     color: #5d4954;
 	font-weight: bold;
 }
+@media screen and (min-width:1025px){
+    .link_dis{
+        pointer-events: none;
+        cursor: default;
+    }
+}
 
-@media screen and (max-width:1024px){
+@media screen and (orientation: portrait){
 	.contatti2{
         display: none;
     }
