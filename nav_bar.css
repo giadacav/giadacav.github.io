@@ -71,6 +71,11 @@ nav{
 	transition: all 0.3s ease;
 }
 
+.ghost_link{
+    pointer-events: none;
+    cursor: default;
+}
+
 @media screen and (max-width:1025px){
 	.nav-links{
 		width: 50%;
@@ -78,7 +83,7 @@ nav{
 
 }
 
-@media screen and (max-width:1024px){
+@media screen and (orientation: portrait){
 	body{
 		overflow-x: hidden;
 	}

@@ -26,6 +26,8 @@ ul{
     color: #5d4954;
 	font-weight: bold;
 }
+
+
 @media screen and (orientation: landscape){
     .link_dis{
         pointer-events: none;
