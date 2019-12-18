@@ -66,7 +66,7 @@ h1{
 }
 
 
-@media screen and (orientation: protrait){
+@media screen and (orientation: portrait){
 
 	.split{
 		height: 46vh;
