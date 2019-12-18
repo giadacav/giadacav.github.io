@@ -1,1 +1,13 @@
 @import "nav_bar.css";
+
+.curriculum{
+    padding: 2% 4%;
+}
+
+.date{
+    padding-right:30px;
+}
+
+h2{
+    padding: 6px 0;
+}
