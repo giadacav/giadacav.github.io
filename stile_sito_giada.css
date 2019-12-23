@@ -66,10 +66,10 @@ h1{
 }
 
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: portrait), screen and (max-width: 1300px){
 
 	.split{
-		height: 46vh;
+		height: 70vh;
 		width: 100%;
 		position: fixed;
 		top: 8vh;
