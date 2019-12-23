@@ -34,7 +34,8 @@ header{
 
 .right{
 	right: 0;
-	background-color: #fbfbfb;
+	/* background-color: #fbfbfb; */
+	background-color: red;
 }
 .descrizione{
 	position: relative;
