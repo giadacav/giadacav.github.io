@@ -35,7 +35,7 @@ header{
 .right{
 	right: 0;
 	/* background-color: #fbfbfb; */
-	background-color: red;
+	background-color: blue;
 }
 .descrizione{
 	position: relative;
@@ -69,6 +69,11 @@ h1{
 
 @media screen and (orientation: portrait), screen and (max-width: 1300px){
 
+	.body{
+
+		overflow-y: scroll;
+	}
+
 	.split{
 		display: flex;
 		width: 100%;
@@ -77,6 +82,7 @@ h1{
 		top: 8vh;
 		padding-top: 20px;
 		padding-left: 10%;
+		overflow-y: scroll;
 	}
 	.left{
 		top: 8vh;
@@ -85,6 +91,7 @@ h1{
 	
 	.right{
 		top: 62vh;
+		overflow-y: scroll;
 		/* height: 100%; */
 	}
 
