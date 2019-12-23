@@ -35,7 +35,7 @@ header{
 .right{
 	right: 0;
 	/* background-color: #fbfbfb; */
-	background-color: red;
+	background-color: blue;
 }
 .descrizione{
 	position: relative;
@@ -70,7 +70,6 @@ h1{
 @media screen and (orientation: portrait), screen and (max-width: 1300px){
 
 	.split{
-		height: 70vh;
 		width: 100%;
 		position: fixed;
 		top: 8vh;
